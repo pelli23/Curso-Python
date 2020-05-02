@@ -1,3 +1,18 @@
+#variables
+
+nombre_variable = "Valor variable"
+
+#Constantes
+
+NOMBRE_CONSTANTE = "Valor Constante" 
+
+""" 
+En Python no existen las constantes, pero si queremos definir 
+una variable cuyo valor nunca vamos a alterar, por norma, se escribe
+el nombre en MAYUSCULAS para dejar constancia de que es una 'constante'
+"""
+
+
 #Tipo Int
 entero = 10
 #La función type nos devuelve el tipo de dato
@@ -57,3 +72,14 @@ a = 10
 print(type(str(a)))
 a = "True"
 print(type(bool(a)))
+
+
+#Funciones pre-definidas que hemos visto:
+
+"""
+input() -> recoge texto por consola y lo devuelve como string
+print() -> imprime por consola, puede recibir multiples argumentos de cualquier tipo
+type() -> devuelve el tipo de datos
+Funciones de cambio de tipo -> cambia el tipo de dato que recibe por parametro y develve el que indica la función
+
+"""
